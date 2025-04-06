@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bit-Battle</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="img">
+      <img src="hero-img-for-event.jpeg" alt="hero image of event" />
+    </div>
+    <header>
+      <h1>Bit-Battle</h1>
+      <p>"Where logic meets speed — welcome to Bit-Battle!"</p>
+      <!-- <p style="color: rgb(77, 53, 215)">Rules for Bit-Battle</p> -->
+    </header>
+
+    <div class="rounds">
+      <h3 style="color: #d10277">Bit-Battle includes 4 rounds</h3>
+      <ol>
+        <li>Quiz</li>
+        <li>Glitch-Fix</li>
+        <li>Debugging</li>
+        <li>Coding</li>
+      </ol>
+    </div>
+    <main>
+      <footer>
+        <a href="Bit-Battle.pdf" download="">
+          <button>View Sample Questions</button></a
+        ><br />
+        <button id="toggleBtn">Show Rules</button>
+        <div class="last">
+          <p>
+            For registration
+            <a href="https://forms.gle/7uA4VJuCkBCd21rZ8">Click_here</a>
+          </p>
+        </div>
+      </footer>
+
+      <section id="rules-container">
+        <!-- Round 1: Quiz -->
+        <div class="rule" id="rule1">
+          <h2>Round 1: Quiz</h2>
+          <div>
+            <ul style="list-style-type: none; padding-left: 0">
+              <li>
+                &#x2022;<strong class="strong">Duration:</strong> 30 minutes
+              </li>
+              <li>
+                &#x2022;<strong class="strong">Total Questions:</strong> 30
+              </li>
+              <li>
+                &#x2022;<strong class="strong">Scoring:</strong> Each question
+                carries <strong>1 point</strong> (Total: 30 points)
+              </li>
+              <li>
+                <strong style="color: #d10277">Rules:</strong>
+                <ul style="list-style-type: none; padding-left: 20px">
+                  <li>
+                    &#x2022;<strong class="strong"
+                      >Browser Restrictions:</strong
+                    >
+                    Do <strong>not</strong> open any other browsers or external
+                    tools like ChatGPT ,DeepSeek and etc...
+                  </li>
+                  <li>
+                    &#x2022;<strong class="strong">Violation:</strong> If found
+                    opening external sources, they will
+                    <strong>disqualified </strong> from this round.
+                  </li>
+                  <li>
+                    &#x2022;<strong class="strong">Completion Rule:</strong>
+                    Even if you finish early
+                    <strong>Do not close the site</strong> until round
+                    officially ends.
+                  </li>
+                  <li>
+                    &#x2022;<strong class="strong">Website Closure:</strong> If
+                    you <strong>close the website, </strong>your test
+                    <strong> will not restart, </strong> and you will be unable
+                    to continue.
+                  </li>
+                  <li>
+                    &#x2022;<strong class="strong">Final Decision:</strong> The
+                    decision of
+                    <strong>teachers and our volunteers is final,</strong>and no
+                    further discussions will be entertained.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Round 2: Bug Finder -->
+        <div class="rule" id="rule2">
+          <h2>Round 2: Glitch-Fix</h2>
+          <div>
+            <ul style="list-style-type: none; padding-left: 0">
+              <li>
+                &#x2022;<strong class="strong">Duration:</strong> 40 minutes
+              </li>
+              <li>
+                &#x2022;<strong class="strong">Total questions:</strong> 4
+              </li>
+              <li>
+                &#x2022;<strong class="strong">Max Score:</strong> Each
+                correctly executed code carries 10 points (Total: 40 points)
+              </li>
+            </ul>
+
+            <h3 style="color: #d10277">What is Glitch-Fix?</h3>
+            <ul style="list-style-type: none; padding-left: 0">
+              <li>
+                <p>
+                  Glitch-Fix is an error-finding round where participants are
+                  given code snippets containing bugs or errors. The task is to
+                  identify and fix the issues so the code runs correctly. It
+                  tests your debugging skills and understanding of programming
+                  concepts in C or Java.
+                </p>
+              </li>
+            </ul>
+
+            <h3 style="color: #d10277">Rules:</h3>
+            <ul style="list-style-type: none; padding-left: 0">
+              <li>
+                &#x2022;
+                <strong>Language: </strong>Code will be in C or Java only.
+              </li>
+              <li>
+                &#x2022;
+                <strong>Compiler: </strong>Participants must use the compiler
+                provided by the organizers.
+              </li>
+              <li>
+                &#x2022;
+                <strong>External Tools: </strong> Do not use any external tools
+                (e.g., ChatGPT, DeepSeek, etc.).
+              </li>
+              <li>
+                &#x2022;
+                <strong>Violation: </strong>If any participant is found using
+                external sources, they will be disqualified from this round.
+              </li>
+              <li>
+                &#x2022;
+                <strong>Scoring Rule: </strong>The code must run successfully to
+                earn points. No partial marks will be awarded.
+              </li>
+              <li>
+                &#x2022;
+                <strong>Final Decision: </strong>The decision of the teachers and our volunteers
+                is final, and no further discussions will be entertained.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Round 3: Debugging Challenge -->
+        <div class="rule" id="rule3">
+          <h2>Round 3: Debugging </h2>
+          <div>
+            <p>
+              &#x2022; <strong>Total Duration:</strong> 10 minutes (hint) + 30
+              minutes (debugging)
+            </p>
+
+            <h3 style="color: #d10277">Scoring:</h3>
+            <ul style="list-style-type: none; padding-left: 0">
+              <li>&#x2022; <strong>Hint Cracked:</strong> 20 points</li>
+              <li>
+                &#x2022; <strong>Each Question Solved:</strong> 10 points
+                (Total: 60 points)
+              </li>
+              <li>
+                &#x2022; <strong>Total Possible Points:</strong> 80 points
+              </li>
+            </ul>
+
+            <h3 style="color: #d10277">
+              Stage 1: Finding the Correct Hint (20 Points)
+            </h3>
+            <ul style="list-style-type: none; padding-left: 0">
+              <li>
+                &#x2022; Program displayed on projector for all participants.
+              </li>
+              <li>
+                &#x2022;  Participants must debug the program without running it. 
+              </li>
+              <li>
+                &#x2022;  The correct output of the program is the password (hint) needed 
+                to proceed.  
+              </li>
+              <li>
+                &#x2022; <strong>Time Limit:</strong> 10 minutes to crack hint.
+              </li>
+              <li>
+                &#x2022; <strong>Scoring:</strong>
+                <ul style="list-style-type: none; padding-left: 20px">
+                  <li>&#x2022; If you Crack the hint within 10 min → 20 points</li>
+                  <li>&#x2022; If not cracked in time, the correct hint is provided (but no 
+                    points). </li>
+                </ul>
+              </li>
+            </ul>
+
+            <h3 style="color: #d10277">
+              Stage 2: Unlocking Secret Files (60 Points)
+            </h3>
+            <ul style="list-style-type: none; padding-left: 0">
+              <li>
+                &#x2022; Correct hint unlocks next page with download button and
+                6 questions
+              </li>
+              <li>
+                &#x2022; Download contains ZIP with 6 password-locked Word files
+              </li>
+            </ul>
+
+            <h3 style="color: #d10277">Stage 3: Debugging and Unlocking</h3>
+            <ul style="list-style-type: none; padding-left: 0">
+              <li>
+                &#x2022; Each question on the webpage corresponds to one locked Word 
+                file. 
+              </li>
+              <li>
+                &#x2022; The correct answer (output) of each question is the password for 
+                the corresponding Word file. 
+              </li>
+              <li>
+                &#x2022;   Participants must debug the questions(without running it), find 
+                the correct outputs, and use them as passwords to unlock the 
+                Word files. 
+              </li>
+              <h4 style="color: #d10277">Scoring:</h4>
+              <li>
+                &#x2022;  Each unlocked Word file = <strong> 10 points</strong> 
+              </li>
+              <li>
+                &#x2022;  Total for 6 questions  = <strong> 60 points</strong> 
+              </li>
+              
+            </ul>
+
+            <h3 style="color: #d10277">Stage 4: Confirming Completion</h3>
+            <ul style="list-style-type: none; padding-left: 0">
+              <li>&#x2022; Each Word file contains a programming-related meme as a 
+                reward.</li>
+              <li>&#x2022; Once a participant unlocks a Word file, they must show it to the 
+                event volunteers. </li>
+                <li>&#x2022; The volunteers will either take a picture or write down the proof 
+                  on a page.  </li>
+                  <li>&#x2022; Volunteers will keep track of scores. </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Round 4: Coding Round -->
+        <div class="rule" id="rule4">
+          <h2>Round 4: Coding </h2>
+          <div>
+            <ul style="list-style-type: none; padding-left: 0">
+              <li>&#x2022; <strong>Duration:</strong> 1 hour</li>
+              <li>&#x2022; <strong>Max Score:</strong> 50 points</li>
+            </ul>
+
+            <h3 style="color: #d10277">Round Format</h3>
+            <ul style="list-style-type: none; padding-left: 0">
+              <li>
+                &#x2022; <strong>One long coding question</strong> with sample
+                output
+              </li>
+              <li>&#x2022; The goal is to write a program that can perform a given task. </li>
+              <li>&#x2022; Participants can Choice  <strong>C or Java</strong> language to write their code.</li>
+            </ul>
+
+            <h3 style="color: #d10277">Scoring System (50 Points)</h3>
+            <ul style="list-style-type: none; padding-left: 0">
+              <li>&#x2022; Points will be awarded based on specific conditions, which will be announced during the event.</li>
+              <li>&#x2022; No predefined scoring breakdown</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="last">
+      <p class="footer">Developed and Designed by</p>
+      <p>Final year students</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
